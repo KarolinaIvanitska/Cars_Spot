@@ -2,13 +2,11 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Headers_presentation from "./components/Headers_presentation/Headers_presentation";
 import Hero from "./components/Hero/Hero";
-import Navigation from "./components/Navigation/Navigation";
 
 function App() {
   return (
     <>
-      <div className="container mx-auto pt-10 pb-20px">
-        <Navigation />
+      <div className="container mx-auto pt-5 pb-10px">
         <Hero />
         <Headers_presentation />
         <Footer />
