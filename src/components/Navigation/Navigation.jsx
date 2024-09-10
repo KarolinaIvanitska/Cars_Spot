@@ -2,7 +2,7 @@ import { Icon } from "../../icons/Icon";
 
 const Navigation = () => {
   return (
-    <header className="sticky top-0 z-[20] ">
+    <header className="top-0">
       <nav>
         <div className="container mx-auto flex justify-between items-center p-y-20">
           <div className="flex items-center align-middle">
@@ -19,7 +19,7 @@ const Navigation = () => {
             <li>
               <a
                 href="#gallery"
-                className="text-lg mx-4 hover:text-logo-color text-text-color transition duration-300 ease-in-out transform"
+                className="text-lg mx-4 hover:text-logo-color text-text-color transition duration-300 ease-in-out transform font-roboto"
               >
                 Galeria zdjęć
               </a>
@@ -27,7 +27,7 @@ const Navigation = () => {
             <li>
               <a
                 href="#faQ"
-                className="text-lg mx-4 hover:text-logo-color text-text-color transition duration-300 ease-in-out transform"
+                className="text-lg mx-4 hover:text-logo-color text-text-color transition duration-300 ease-in-out transform font-roboto"
               >
                 FaQ
               </a>
@@ -35,7 +35,7 @@ const Navigation = () => {
           </ul>
           <button
             type="button"
-            className="bg-logo-color text-background-color p-3 rounded-lg w-48 transition duration-300 ease-in-out transform hover:bg-blue-800 hover:scale-105"
+            className="bg-logo-color text-background-color font-weight-600 font-roboto_flex p-3 rounded-lg w-48 transition duration-300 ease-in-out transform hover:bg-blue-800 hover:scale-105"
           >
             <a href="tel:+48 123 456 789">Zadzwoń do nas</a>
           </button>

@@ -10,6 +10,11 @@ export default {
         "text-color-2": " rgba(29, 29, 27, 1)",
         "vector-color": "rgba(217, 220, 213, 1)",
       },
+      fontFamily: {
+        bebas: ["Bebas Neue", "sans-serif"],
+        roboto: ["Roboto Condensed", "sans-serif"],
+        roboto_flex: ["Roboto Flex", "sans-serif"],
+      },
     },
   },
   plugins: [],

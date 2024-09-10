@@ -8,9 +8,11 @@ const Headers_presentation = () => {
     setSelectedCarType(type);
   };
   return (
-    <section className="h-[678px] mb-40">
-      <h1 className="text-xl text-logo-color mb-3">Prezentacja firmy</h1>
-      <h2 className="text-3xl font-bold uppercase text-start max-w-2xl text-text-color-2 mb-10">
+    <section id="gallery" className="h-[678px] mb-40">
+      <h1 className="text-2xl text-logo-color mb-3 font-roboto">
+        Prezentacja firmy
+      </h1>
+      <h2 className="text-5xl  uppercase text-start max-w-2xl text-text-color-2 mb-10 font-bebas">
         Zobacz naszą galerie zdjęć
       </h2>
       <div className="flex space-x-4 mb-6">
@@ -18,7 +20,7 @@ const Headers_presentation = () => {
           onClick={() => handleCarTypeChange("osobowe")}
           className={`cursor-pointer ${
             selectedCarType === "osobowe"
-              ? "text-logo-color border-b-2 border-logo-color"
+              ? "text-logo-color border-b-2 border-logo-color font-roboto_flex"
               : "text-color-2"
           } transition-colors duration-300`}
         >
@@ -28,7 +30,7 @@ const Headers_presentation = () => {
           onClick={() => handleCarTypeChange("dostawcze")}
           className={`cursor-pointer ${
             selectedCarType === "dostawcze"
-              ? "text-logo-color border-b-2 border-logo-color "
+              ? "text-logo-color border-b-2 border-logo-color font-roboto_flex"
               : "text-color-2"
           } transition-colors duration-300`}
         >
