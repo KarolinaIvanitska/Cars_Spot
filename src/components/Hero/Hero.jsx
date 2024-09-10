@@ -19,7 +19,7 @@ const Hero = () => {
       </div>
       <Navigation />
       <div className="flex flex-col m-auto">
-        <h1 className="text-5xl font-bold uppercase text-start  pt-20 pb-10 max-w-2xl text-text-color">
+        <h1 className="text-5xl  font-bold uppercase text-start  pt-20 pb-10 max-w-2xl text-text-color">
           Sprzedajemy samochody z Europy
         </h1>
         <p className="text-start max-w-xl pb-10 w-80 text-text-color">
@@ -33,7 +33,7 @@ const Hero = () => {
           </li>
           <li>
             <button className="bg-white-700 text-blue-700 p-3 rounded-lg w-48  border-blue-700 border-2 transition duration-300 ease-in-out transform hover:bg-background-color hover:text-logo-color hover:border-blue-700 hover:scale-105">
-              Zadzwoń do nas
+              <a href="tel:+48 123 456 789">Zadzwoń do nas</a>
             </button>
           </li>
         </ul>

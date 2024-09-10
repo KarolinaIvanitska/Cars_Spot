@@ -12,7 +12,7 @@ const Car_Gallery = ({ data = [] }) => {
   };
 
   return (
-    <div className="h-screen pt-20 w-[100%]">
+    <div className="h-[601px] pt-14 w-[100%]">
       <div className="m-auto">
         <Slider {...settings}>
           {data.map((item, index) => {

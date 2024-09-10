@@ -8,9 +8,9 @@ const Headers_presentation = () => {
     setSelectedCarType(type);
   };
   return (
-    <section className="h-screen">
+    <section className="h-[678px] mb-40">
       <h1 className="text-xl text-logo-color mb-3">Prezentacja firmy</h1>
-      <h2 className="text-3xl font-bold uppercase text-start   max-w-2xl text-text-color-2 mb-10">
+      <h2 className="text-3xl font-bold uppercase text-start max-w-2xl text-text-color-2 mb-10">
         Zobacz naszą galerie zdjęć
       </h2>
       <div className="flex space-x-4 mb-6">
