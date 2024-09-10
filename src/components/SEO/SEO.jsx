@@ -12,12 +12,12 @@ const SEO = () => {
     <section className="bg-text-color pt-20 pb-20 pr-40 pl-40">
       <div>
         <ul className="flex gap-10">
-          <li className="flex-1 min-h-[200px]  p-4 relative">
-            <h2 className="text-2xl  uppercase mw-2md text-background-color font-bebas mb-3 font-normal">
+          <li className="li">
+            <h2 className="text-h2">
               Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit
               nulla commodo.
             </h2>
-            <p className="text-background-color font-roboto font-normal">
+            <p className="text-p">
               Mauris varius ipsum mauris, rutrum lobortis magna efficitur a.
               Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur
               mi, ac venenatis eros ipsum ac arcu. Vestibulum et [...]
@@ -29,24 +29,17 @@ const SEO = () => {
                 </span>
               )}
             </p>
-            <button
-              onClick={toggleText1}
-              className="text-background-color flex gap-2 items-center cursor-pointer hover:text-logo-color pt-4"
-            >
+            <button onClick={toggleText1} className="btn_rozwin">
               {isTextVisible1 ? "Zwiń" : "Rozwiń"}
-              <Icon
-                id={isTextVisible1 ? "arrow-up" : "arrow-down"}
-                size={16}
-                className={"text-background-color"}
-              />
+              <Icon id={isTextVisible1 ? "arrow-up" : "arrow-down"} size={16} />
             </button>
           </li>
-          <li className="flex-1 min-h-[200px]  p-4 relative">
-            <h2 className="text-2xl uppercase mw-2md text-background-color font-bebas mb-3 font-normal">
+          <li className="li">
+            <h2 className="text-h2">
               Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit
               nulla commodo.
             </h2>
-            <p className="text-background-color font-roboto font-normal">
+            <p className="text-p">
               Mauris varius ipsum mauris, rutrum lobortis magna efficitur a.
               Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur
               mi, ac venenatis eros ipsum ac arcu. Vestibulum et [...]
@@ -58,10 +51,7 @@ const SEO = () => {
                 </span>
               )}
             </p>
-            <button
-              onClick={toggleText2}
-              className="text-background-color flex gap-2 items-center cursor-pointer hover:text-logo-color pt-4"
-            >
+            <button onClick={toggleText2} className="btn_rozwin">
               {isTextVisible2 ? "Zwiń" : "Rozwiń"}
               <Icon id={isTextVisible2 ? "arrow-up" : "arrow-down"} size={16} />
             </button>

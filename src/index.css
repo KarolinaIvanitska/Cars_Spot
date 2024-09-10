@@ -12,3 +12,26 @@ body {
 .slick-slide > div {
   margin: 0 20px;
 }
+.text-h2 {
+  @apply text-2xl  uppercase text-background-color font-bebas mb-3 font-normal;
+}
+
+.text-p {
+  @apply text-background-color font-roboto font-normal;
+}
+
+.li {
+  @apply flex-1 min-h-[200px]  p-4 relative;
+}
+
+.btn_rozwin {
+  @apply text-background-color flex gap-2 items-center cursor-pointer  pt-4;
+}
+
+.btn_zadzwon {
+  @apply bg-logo-color text-background-color font-roboto_flex p-3 rounded-lg w-48 transition duration-300 ease-in-out transform hover:bg-blue-800 hover:scale-105;
+}
+
+.link {
+  @apply text-lg mx-4 hover:text-logo-color text-text-color transition duration-300 ease-in-out transform font-roboto;
+}

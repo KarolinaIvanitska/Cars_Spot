@@ -17,26 +17,13 @@ const Navigation = () => {
 
           <ul className=" flex items-center justify-between gap-10">
             <li>
-              <a
-                href="#gallery"
-                className="text-lg mx-4 hover:text-logo-color text-text-color transition duration-300 ease-in-out transform font-roboto"
-              >
-                Galeria zdjęć
-              </a>
+              <a className="link">Galeria zdjęć</a>
             </li>
             <li>
-              <a
-                href="#faQ"
-                className="text-lg mx-4 hover:text-logo-color text-text-color transition duration-300 ease-in-out transform font-roboto"
-              >
-                FaQ
-              </a>
+              <a className="link">FaQ</a>
             </li>
           </ul>
-          <button
-            type="button"
-            className="bg-logo-color text-background-color font-weight-600 font-roboto_flex p-3 rounded-lg w-48 transition duration-300 ease-in-out transform hover:bg-blue-800 hover:scale-105"
-          >
+          <button type="button" className="btn_zadzwon">
             <a href="tel:+48 123 456 789">Zadzwoń do nas</a>
           </button>
         </div>
