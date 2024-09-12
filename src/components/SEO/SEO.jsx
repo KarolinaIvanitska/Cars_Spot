@@ -9,9 +9,9 @@ const SEO = () => {
   const toggleText2 = () => setIsTextVisible2(!isTextVisible2);
 
   return (
-    <section className="bg-text-color pt-20 pb-20 pr-40 pl-40">
-      <div>
-        <ul className="flex gap-10">
+    <section id="faq" className="bg-text-color">
+      <div className="flex m-auto">
+        <ul className="flex gap-10 mobile:p-3 desktop:p-28">
           <li className="li">
             <h2 className="text-h2">
               Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit

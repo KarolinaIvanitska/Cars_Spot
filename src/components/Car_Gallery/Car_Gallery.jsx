@@ -12,7 +12,7 @@ const Car_Gallery = ({ data = [] }) => {
   };
 
   return (
-    <div className="h-[601px] pt-14 w-[100%]">
+    <div className=" mobile:pt-7 tablet:pt-14 w-[100%] gap-4">
       <div className="m-auto">
         <Slider {...settings}>
           {data.map((item, index) => {
@@ -20,7 +20,7 @@ const Car_Gallery = ({ data = [] }) => {
               <div key={index}>
                 <img
                   src={item.image}
-                  className="w-[601px] h-[446px] object-cover rounded-lg"
+                  className="mobile:w-[401px] mobile:h-[146px] tablet:w-[601px] tablet:h-[446px] object-cover rounded-lg"
                 />
               </div>
             );

@@ -7,7 +7,7 @@ import SEO from "./components/SEO/SEO.JSX";
 function App() {
   return (
     <>
-      <div className="container mx-auto pt-5 pb-10px">
+      <div className="container pt-5 pb-10px m-auto">
         <Navigation />
         <Hero />
         <Headers_presentation />
