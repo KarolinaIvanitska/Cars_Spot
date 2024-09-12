@@ -15,6 +15,11 @@ export default {
         roboto: ["Roboto Condensed", "sans-serif"],
         roboto_flex: ["Roboto Flex", "sans-serif"],
       },
+      screens: {
+        mobile: "320px",
+        tablet: "768px",
+        desktop: "1280px",
+      },
     },
   },
   plugins: [],

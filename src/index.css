@@ -12,6 +12,9 @@ body {
 .slick-slide > div {
   margin: 0 20px;
 }
+
+/* section SEO */
+
 .text-h2 {
   @apply text-2xl  uppercase text-background-color font-bebas mb-3 font-normal;
 }
@@ -35,3 +38,5 @@ body {
 .link {
   @apply text-lg mx-4 hover:text-logo-color text-text-color transition duration-300 ease-in-out transform font-roboto;
 }
+
+/* End of section SEO */
