@@ -1,5 +1,6 @@
 import { Link } from "react-scroll";
 import cars from "../../images/cars.png";
+import background_vector from "../../images/background_vector.png";
 import Navigation from "../Navigation/Navigation";
 
 const Hero = () => {
@@ -8,7 +9,7 @@ const Hero = () => {
       <Navigation />
       <div className="mobile:hidden desktop:block absolute top-0 right-0 tablet:h-screen w-full overflow-hidden pointer-events-none">
         <img
-          src="/src/images/background_vector.png"
+          src={background_vector}
           alt="Background"
           className=" w-auto h-full desktop:max-h-screen  object-cover desktop:right-0 desktop:top-[-80px] "
           style={{ position: "absolute", zIndex: "-1" }}
