@@ -1,7 +1,7 @@
 import { Icon } from "../../icons/Icon";
 import { useState } from "react";
 
-const SEO = () => {
+const Seo = () => {
   const [isTextVisible1, setIsTextVisible1] = useState(false);
   const [isTextVisible2, setIsTextVisible2] = useState(false);
 
@@ -62,4 +62,4 @@ const SEO = () => {
   );
 };
 
-export default SEO;
+export default Seo;

@@ -1,7 +1,7 @@
 import Footer from "./components/Footer/Footer";
 import Headers_presentation from "./components/Headers_presentation/Headers_presentation";
 import Hero from "./components/Hero/Hero";
-import SEO from "./components/SEO/SEO.JSX";
+import Seo from "./components/Seo/Seo";
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       </div>
 
       <div className="background-color mx-auto">
-        <SEO />
+        <Seo />
+
         <Footer />
       </div>
     </>
