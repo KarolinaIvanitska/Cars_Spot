@@ -1,7 +1,7 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
+import PropTypes from "prop-types";
 const Car_Gallery = ({ data }) => {
   let settings = {
     dots: true,
@@ -34,5 +34,11 @@ const Car_Gallery = ({ data }) => {
     </div>
   );
 };
-
+Car_Gallery.propTypes = {
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      image: PropTypes.string.isRequired,
+    })
+  ),
+};
 export default Car_Gallery;
