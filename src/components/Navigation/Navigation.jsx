@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Icon } from "../../icons/Icon";
+import { Link } from "react-scroll";
 
 const Navigation = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -14,22 +15,36 @@ const Navigation = () => {
           <div className="flex items-center">
             <Icon id="logo" size={25} className="text-logo-color" />
             <a
-              className="text-2xl text-text-color block rounded-md px-3 py-2 font-medium"
               href="/"
+              className="text-2xl text-text-color block rounded-md px-3 py-2 font-medium"
             >
               <span className="text-2xl text-logo-color">Cars</span>Spot
             </a>
           </div>
           <ul className="hidden tablet:flex items-center justify-between gap-10">
             <li>
-              <a href="#gallery" className="link">
+              <Link
+                to="gallery"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="link"
+              >
                 Galeria zdjęć
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#faq" className="link">
+              <Link
+                to="faq"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="link"
+              >
                 FaQ
-              </a>
+              </Link>
             </li>
           </ul>
 
@@ -59,22 +74,30 @@ const Navigation = () => {
             </button>
             <ul className="flex flex-col gap-6">
               <li>
-                <a
-                  href="gallery"
-                  className="link block text-xl"
+                <Link
+                  to="gallery"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  className="link"
                   onClick={toggleModal}
                 >
                   Galeria zdjęć
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="faq"
-                  className="link block text-xl"
+                <Link
+                  to="faq"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  className="link"
                   onClick={toggleModal}
                 >
                   FaQ
-                </a>
+                </Link>
               </li>
               <li>
                 <a

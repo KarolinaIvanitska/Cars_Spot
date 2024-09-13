@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.html {
-  scroll-behavior: smooth;
-}
-
 body {
   @apply bg-gray-100;
   margin: 0;
@@ -40,7 +36,7 @@ body {
 }
 
 .link {
-  @apply text-lg mx-4 hover:text-logo-color text-text-color transition duration-300 ease-in-out transform font-roboto;
+  @apply text-lg mx-4 hover:text-logo-color text-text-color transition duration-300 ease-in-out transform font-roboto cursor-pointer;
 }
 
 /* End of section SEO */
