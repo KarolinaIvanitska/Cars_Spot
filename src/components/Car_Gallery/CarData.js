@@ -1,37 +1,37 @@
-import car1 from "../../images/car1.jpg";
-import car2 from "../../images/car2.jpg";
-import car3 from "../../images/car3.jpg";
+import first from "../../images/first.jpg";
+import second from "../../images/second.jpg";
+import third from "../../images/third.jpg";
 
-import dcar1 from "../../images/dcar1.jpg";
-import dcar2 from "../../images/dcar2.jpg";
-import dcar3 from "../../images/dcar3.jpg";
+import one from "../../images/one.jpg";
+import two from "../../images/two.jpg";
+import three from "../../images/three.jpg";
 
 export const osoboweCars = [
   {
-    image: car1,
+    image: first,
     title: "Car 1",
   },
   {
-    image: car2,
+    image: second,
     title: "Car 2",
   },
   {
-    image: car3,
+    image: third,
     title: "Car 3",
   },
 ];
 
 export const dostawczeCars = [
   {
-    image: dcar1,
+    image: one,
     title: "Van 1",
   },
   {
-    image: dcar2,
+    image: two,
     title: "Van 2",
   },
   {
-    image: dcar3,
+    image: three,
     title: "Van 3",
   },
 ];
