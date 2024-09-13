@@ -9,6 +9,10 @@ const Car_Gallery = ({ data = [] }) => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
+    arrows: false,
+    customPaging: () => (
+      <div className="w-2 h-2 bg-logo-color rounded-full mt-7"></div>
+    ),
   };
 
   return (

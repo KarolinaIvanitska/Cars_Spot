@@ -20,6 +20,9 @@ export default {
         tablet: "768px",
         desktop: "1280px",
       },
+      backgroundImage: {
+        "local-image": "url('./src/images/background_vector.png')",
+      },
     },
   },
   plugins: [],
