@@ -5,7 +5,7 @@ import Navigation from "../Navigation/Navigation";
 
 const Hero = () => {
   return (
-    <section className="relative tablet:h-screen mobile:h-100% mobile:mb-40 tablet:mb-60 desktop:mb-80">
+    <section className="relative tablet:h-screen mobile:h-100% mobile:mb-40 tablet:mb-60 ">
       <Navigation />
       <div className="mobile:hidden desktop:block absolute top-0 right-0 tablet:h-screen w-full overflow-hidden pointer-events-none">
         <img

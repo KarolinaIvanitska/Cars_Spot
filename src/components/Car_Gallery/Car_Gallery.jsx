@@ -2,7 +2,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-const Car_Gallery = ({ data = [] }) => {
+const Car_Gallery = ({ data }) => {
   let settings = {
     dots: true,
     infinite: true,
