@@ -13,7 +13,19 @@ const Navigation = () => {
       <nav>
         <div className="container  flex justify-between items-center py-4">
           <div className="flex items-center">
-            <Icon id="logo" size={25} className="stroke-logo-color " />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              strokeWidth="2.5"
+              className="size-6 stroke-logo-color fill-none"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"
+              />
+            </svg>
+
             <a
               href="/"
               className="text-2xl text-text-color block rounded-md px-3 py-2 font-medium font-roboto"
@@ -55,10 +67,21 @@ const Navigation = () => {
 
           <button
             type="button"
-            className="tablet:hidden stroke-logo-color"
+            className="tablet:hidden "
             onClick={toggleModal}
           >
-            <Icon id="menu" size={30} className={"fill-logo-color"} />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              className="size-8 stroke-logo-color "
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
           </button>
         </div>
       </nav>
@@ -67,11 +90,18 @@ const Navigation = () => {
         <div className="absolute inset-0">
           <div className="bg-background-color bg-opacity-75 fixed inset-0 flex items-center justify-center z-50 p-8">
             <button className="absolute top-8 right-6" onClick={toggleModal}>
-              <Icon
-                id="close"
-                size={30}
-                className="stroke-logo-color fill-logo-color"
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                className="size-8 stroke-logo-color"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
             </button>
             <ul className="flex flex-col gap-6">
               <li>

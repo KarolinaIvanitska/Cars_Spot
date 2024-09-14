@@ -31,11 +31,33 @@ const Seo = () => {
             </p>
             <button onClick={toggleText1} className="btn_rozwin">
               {isTextVisible1 ? "Zwiń" : "Rozwiń"}
-              <Icon
-                id={isTextVisible1 ? "arrow-up" : "arrow-down"}
-                size={16}
-                className={"fill-background-color"}
-              />
+              {isTextVisible1 ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  className="size-4 fill-background-color  stroke-background-color"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18"
+                  />
+                </svg>
+              ) : (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  className="size-4 fill-background-color stroke-background-color"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+                  />
+                </svg>
+              )}
             </button>
           </li>
           <li className="li">
@@ -57,11 +79,33 @@ const Seo = () => {
             </p>
             <button onClick={toggleText2} className="btn_rozwin">
               {isTextVisible2 ? "Zwiń" : "Rozwiń"}
-              <Icon
-                id={isTextVisible2 ? "arrow-up" : "arrow-down"}
-                size={16}
-                className={"fill-background-color"}
-              />
+              {isTextVisible2 ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  className="size-4 fill-background-color stroke-background-color"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18"
+                  />
+                </svg>
+              ) : (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  className="size-4 fill-background-color stroke-background-color"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+                  />
+                </svg>
+              )}
             </button>
           </li>
         </ul>
