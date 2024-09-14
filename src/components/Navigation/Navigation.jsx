@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Icon } from "../../icons/Icon.jsx";
 import { Link } from "react-scroll";
 
 const Navigation = () => {

@@ -1,4 +1,3 @@
-import { Icon } from "../../icons/Icon";
 import { useState } from "react";
 
 const Seo = () => {
