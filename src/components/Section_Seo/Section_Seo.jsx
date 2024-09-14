@@ -31,7 +31,11 @@ const Seo = () => {
             </p>
             <button onClick={toggleText1} className="btn_rozwin">
               {isTextVisible1 ? "Zwiń" : "Rozwiń"}
-              <Icon id={isTextVisible1 ? "arrow-up" : "arrow-down"} size={16} />
+              <Icon
+                id={isTextVisible1 ? "arrow-up" : "arrow-down"}
+                size={16}
+                className={"fill-background-color"}
+              />
             </button>
           </li>
           <li className="li">
@@ -53,7 +57,11 @@ const Seo = () => {
             </p>
             <button onClick={toggleText2} className="btn_rozwin">
               {isTextVisible2 ? "Zwiń" : "Rozwiń"}
-              <Icon id={isTextVisible2 ? "arrow-up" : "arrow-down"} size={16} />
+              <Icon
+                id={isTextVisible2 ? "arrow-up" : "arrow-down"}
+                size={16}
+                className={"fill-background-color"}
+              />
             </button>
           </li>
         </ul>

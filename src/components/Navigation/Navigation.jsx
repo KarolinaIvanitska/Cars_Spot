@@ -13,12 +13,13 @@ const Navigation = () => {
       <nav>
         <div className="container  flex justify-between items-center py-4">
           <div className="flex items-center">
-            <Icon id="logo" size={25} className="text-logo-color" />
+            <Icon id="logo" size={25} className="stroke-logo-color " />
             <a
               href="/"
-              className="text-2xl text-text-color block rounded-md px-3 py-2 font-medium"
+              className="text-2xl text-text-color block rounded-md px-3 py-2 font-medium font-roboto"
             >
-              <span className="text-2xl text-logo-color">Cars</span>Spot
+              <span className="text-2xl text-logo-color font-roboto">Cars</span>
+              Spot
             </a>
           </div>
           <ul className="hidden tablet:flex items-center justify-between gap-10">
@@ -57,7 +58,7 @@ const Navigation = () => {
             className="tablet:hidden stroke-logo-color"
             onClick={toggleModal}
           >
-            <Icon id="menu" size={30} />
+            <Icon id="menu" size={30} className={"fill-logo-color"} />
           </button>
         </div>
       </nav>
